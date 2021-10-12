@@ -14,7 +14,7 @@ def creature(token_id):
     bodyType = data[int(token_id)]["body build"]
     weapon = data[int(token_id)]["weapon"]
     imgUrl = data[int(token_id)]["tokenUri"]
-    name = ("My Collection #%s" %token_id)
+    name = ("Hell Cat #%s" %token_id)
 
     attributes = []
     _add_attribute(attributes, 'Race', race)
@@ -24,7 +24,7 @@ def creature(token_id):
 
     return jsonify({
         'name': name,
-        'description': 'Friendly OpenSea Creature that enjoys long swims in the ocean.',
+        'description': 'Cats from Hell!',
         'image': imgUrl,
         'external_url': 'https://openseacreatures.io/%s' % token_id,
         'attributes': attributes
