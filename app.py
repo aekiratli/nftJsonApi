@@ -13,7 +13,7 @@ def creature(token_id):
 
     supply = requests.get(url).text
 
-    if token_id > supply:
+    if int(token_id) > (int(supply)-1):
         abort(404)
 
     
