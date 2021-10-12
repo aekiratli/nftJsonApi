@@ -1,14 +1,22 @@
 
 from flask import Flask, abort, jsonify,send_file, safe_join
 import json
-from os import name
+import requests
 
+url = "https://test-nft-react.herokuapp.com/"
 file = open('nfts.json', 'r')
 data = json.load(file)
 app = Flask(__name__)
 
 @app.route('/api/<token_id>')
 def creature(token_id):
+
+    supply = requests.get(url).text
+
+    if token_id > supply:
+        abort(404)
+
+    
 
     race = data[int(token_id)]["race"]
     bodyType = data[int(token_id)]["body build"]
@@ -32,6 +40,7 @@ def creature(token_id):
 
 
 @app.route('/image/<filename>')
+
 def get_image(filename):
 
     safe_path = safe_join("./images/", filename)
