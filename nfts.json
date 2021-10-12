@@ -4,28 +4,28 @@
   "race": "night elf",
   "body build": "muscular",
   "weapon": "bow",
-  "tokenUri": "https://example.com/images/031.png"
+  "tokenUri": "https://example.com/images/000.png"
  },
  {
   "tokenId": 1,
   "race": "wood elf",
   "body build": "fat",
   "weapon": "bow",
-  "tokenUri": "https://example.com/images/211.png"
+  "tokenUri": "https://example.com/images/001.png"
  },
  {
   "tokenId": 2,
   "race": "orc",
   "body build": "muscular",
   "weapon": "bow",
-  "tokenUri": "https://example.com/images/001.png"
+  "tokenUri": "https://example.com/images/222.png"
  },
  {
   "tokenId": 3,
   "race": "dwarf",
   "body build": "skinny",
   "weapon": "bow",
-  "tokenUri": "https://example.com/images/141.png"
+  "tokenUri": "https://example.com/images/333.png"
  },
  {
   "tokenId": 4,
