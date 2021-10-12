@@ -4,7 +4,7 @@
   "race": "night elf",
   "body build": "muscular",
   "weapon": "bow",
-  "tokenUri": "https://test-nft-api43.herokuapp.com/api/000.png"
+  "tokenUri": "https://test-nft-api43.herokuapp.com/image/000.png"
  },
  {
   "tokenId": 1,
