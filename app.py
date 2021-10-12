@@ -44,7 +44,3 @@ def _add_attribute(existing, attribute_name, value):
     }
 
     existing.append(trait)
-
-if __name__ == '__main__':
-    # Bind to PORT if defined, otherwise default to 5000.
-    app.run(host='0.0.0.0')
