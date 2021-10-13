@@ -18,21 +18,21 @@ def creature(token_id):
 
     
 
-    race = data[int(token_id)]["race"]
-    bodyType = data[int(token_id)]["body build"]
-    weapon = data[int(token_id)]["weapon"]
-    imgUrl = data[int(token_id)]["tokenUri"]
-    name = ("Hell Cat #%s" %token_id)
+    eyes = data[int(token_id)]["eyes"]
+    background = data[int(token_id)]["background"]
+    skin = data[int(token_id)]["skin"]
+    imgUrl = data[int(token_id)]["imgUrl"]
+    name = ("Crypto Whalez #%s" %token_id)
 
     attributes = []
-    _add_attribute(attributes, 'Race', race)
-    _add_attribute(attributes, 'Body Type', bodyType)
-    _add_attribute(attributes, 'Weapon', weapon)
+    _add_attribute(attributes, 'eyes', eyes)
+    _add_attribute(attributes, 'background', background)
+    _add_attribute(attributes, 'skin', skin)
 
 
     return jsonify({
         'name': name,
-        'description': 'Cats from Hell!',
+        'description': 'Whales from the ocean',
         'image': imgUrl,
         'external_url': 'https://openseacreatures.io/%s' % token_id,
         'attributes': attributes
@@ -42,6 +42,13 @@ def creature(token_id):
 @app.route('/image/<filename>')
 
 def get_image(filename):
+
+    token_id = filename.split(".")[0]
+
+    supply = requests.get(url).text
+
+    if int(token_id) > (int(supply)-1):
+        abort(404)
 
     safe_path = safe_join("./images/", filename)
     return send_file(safe_path, mimetype='image/gif')
