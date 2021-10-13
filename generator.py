@@ -1,16 +1,18 @@
 import random
 import json
+import os
 
-MAX_SUPPLY = 36
-TOKEN_URI = "https://example.com/images/"
+MAX_SUPPLY = 50
+TOKEN_URI = "https://test-nft-api43.herokuapp.com/image/"
 
 stopCounter = 0
-attr0 = [0,1,2,3,4,5]
-attr1 = [0,1,2]
-attr2 = [0,1]
-attr0value = ["orc","wood elf","dark elf","night elf","dwarf","human"]
-attr1value = ["muscular","skinny","fat"]
-attr2value = ["sword","bow"]
+attr0 = [0,1,2,3,4]
+attr2 = [0,1,2,3,4]
+attr1 = [0,1,2,3,4,5]
+attr0value = ["dead","surprised","afraid","confident","evil"]
+attr2value = ["toxic","glitter","crystal white", "moisted", "ghost"]
+attr1value = ["treasure","sinken ship", "aquarium", "stranded", "ocean diver", "turqouse water"]
+
 attr0len = len(attr0)
 attr1len = len(attr1)
 attr2len = len(attr2)
@@ -54,11 +56,13 @@ jsonList = []
 
 
 for i in range(0,MAX_SUPPLY):
+    fileToReplace = (str(genAttr0[i])+(str(genAttr1[i]))+(str(genAttr2[i]))+".png")
+    os.rename("./images/"+fileToReplace , "./images/" + str(i) + ".png")
     jsonList.append({"tokenId" : i,
-                    "race" : attr0value[genAttr0[i]],
-                     "body build" : attr1value[genAttr1[i]],
-                     "weapon": attr2value[genAttr2[i]],
-                     "tokenUri": TOKEN_URI+unqAttr[i]+".png"})
+                    "eyes" : attr0value[genAttr0[i]],
+                     "skin" : attr1value[genAttr1[i]],
+                     "background": attr2value[genAttr2[i]],
+                     "imgUrl": str(i) + ".png"})
 
 jsonList = json.dumps(jsonList, indent = 1)
 
