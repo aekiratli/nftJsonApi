@@ -1,254 +1,352 @@
 [
  {
   "tokenId": 0,
-  "race": "night elf",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://test-nft-api43.herokuapp.com/image/000.png"
+  "eyes": "confident",
+  "background": "aquarium",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/0.png"
  },
  {
   "tokenId": 1,
-  "race": "wood elf",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/001.png"
+  "eyes": "afraid",
+  "background": "sinken ship",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/1.png"
  },
  {
   "tokenId": 2,
-  "race": "orc",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/222.png"
+  "eyes": "dead",
+  "background": "turqouse water",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/2.png"
  },
  {
   "tokenId": 3,
-  "race": "dwarf",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/333.png"
+  "eyes": "dead",
+  "background": "sinken ship",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/3.png"
  },
  {
   "tokenId": 4,
-  "race": "night elf",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/030.png"
+  "eyes": "afraid",
+  "background": "aquarium",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/4.png"
  },
  {
   "tokenId": 5,
-  "race": "dark elf",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/220.png"
+  "eyes": "dead",
+  "background": "aquarium",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/5.png"
  },
  {
   "tokenId": 6,
-  "race": "dark elf",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/120.png"
+  "eyes": "confident",
+  "background": "turqouse water",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/6.png"
  },
  {
   "tokenId": 7,
-  "race": "orc",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/100.png"
+  "eyes": "afraid",
+  "background": "ocean diver",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/7.png"
  },
  {
   "tokenId": 8,
-  "race": "wood elf",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/011.png"
+  "eyes": "evil",
+  "background": "aquarium",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/8.png"
  },
  {
   "tokenId": 9,
-  "race": "dark elf",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/121.png"
+  "eyes": "confident",
+  "background": "sinken ship",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/9.png"
  },
  {
   "tokenId": 10,
-  "race": "dwarf",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/140.png"
+  "eyes": "dead",
+  "background": "treasure",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/10.png"
  },
  {
   "tokenId": 11,
-  "race": "human",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/051.png"
+  "eyes": "surprised",
+  "background": "aquarium",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/11.png"
  },
  {
   "tokenId": 12,
-  "race": "human",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/150.png"
+  "eyes": "dead",
+  "background": "ocean diver",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/12.png"
  },
  {
   "tokenId": 13,
-  "race": "human",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/250.png"
+  "eyes": "surprised",
+  "background": "turqouse water",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/13.png"
  },
  {
   "tokenId": 14,
-  "race": "dwarf",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/041.png"
+  "eyes": "evil",
+  "background": "ocean diver",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/14.png"
  },
  {
   "tokenId": 15,
-  "race": "night elf",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/130.png"
+  "eyes": "surprised",
+  "background": "ocean diver",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/15.png"
  },
  {
   "tokenId": 16,
-  "race": "dwarf",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/241.png"
+  "eyes": "confident",
+  "background": "ocean diver",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/16.png"
  },
  {
   "tokenId": 17,
-  "race": "night elf",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/231.png"
+  "eyes": "confident",
+  "background": "treasure",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/17.png"
  },
  {
   "tokenId": 18,
-  "race": "dwarf",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/240.png"
+  "eyes": "afraid",
+  "background": "sinken ship",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/18.png"
  },
  {
   "tokenId": 19,
-  "race": "wood elf",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/010.png"
+  "eyes": "surprised",
+  "background": "aquarium",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/19.png"
  },
  {
   "tokenId": 20,
-  "race": "dwarf",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/040.png"
+  "eyes": "evil",
+  "background": "turqouse water",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/20.png"
  },
  {
   "tokenId": 21,
-  "race": "human",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/251.png"
+  "eyes": "surprised",
+  "background": "turqouse water",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/21.png"
  },
  {
   "tokenId": 22,
-  "race": "dark elf",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/020.png"
+  "eyes": "dead",
+  "background": "ocean diver",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/22.png"
  },
  {
   "tokenId": 23,
-  "race": "human",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/050.png"
+  "eyes": "surprised",
+  "background": "turqouse water",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/23.png"
  },
  {
   "tokenId": 24,
-  "race": "orc",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/201.png"
+  "eyes": "confident",
+  "background": "turqouse water",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/24.png"
  },
  {
   "tokenId": 25,
-  "race": "dark elf",
-  "body build": "fat",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/221.png"
+  "eyes": "confident",
+  "background": "sinken ship",
+  "skin": "crystal white",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/25.png"
  },
  {
   "tokenId": 26,
-  "race": "dark elf",
-  "body build": "muscular",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/021.png"
+  "eyes": "evil",
+  "background": "treasure",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/26.png"
  },
  {
   "tokenId": 27,
-  "race": "night elf",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/131.png"
+  "eyes": "evil",
+  "background": "treasure",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/27.png"
  },
  {
   "tokenId": 28,
-  "race": "wood elf",
-  "body build": "skinny",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/110.png"
+  "eyes": "surprised",
+  "background": "turqouse water",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/28.png"
  },
  {
   "tokenId": 29,
-  "race": "orc",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/200.png"
+  "eyes": "confident",
+  "background": "stranded",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/29.png"
  },
  {
   "tokenId": 30,
-  "race": "wood elf",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/111.png"
+  "eyes": "dead",
+  "background": "aquarium",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/30.png"
  },
  {
   "tokenId": 31,
-  "race": "orc",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/101.png"
+  "eyes": "dead",
+  "background": "ocean diver",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/31.png"
  },
  {
   "tokenId": 32,
-  "race": "night elf",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/230.png"
+  "eyes": "surprised",
+  "background": "sinken ship",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/32.png"
  },
  {
   "tokenId": 33,
-  "race": "human",
-  "body build": "skinny",
-  "weapon": "bow",
-  "tokenUri": "https://example.com/images/151.png"
+  "eyes": "evil",
+  "background": "sinken ship",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/33.png"
  },
  {
   "tokenId": 34,
-  "race": "orc",
-  "body build": "muscular",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/000.png"
+  "eyes": "confident",
+  "background": "aquarium",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/34.png"
  },
  {
   "tokenId": 35,
-  "race": "wood elf",
-  "body build": "fat",
-  "weapon": "sword",
-  "tokenUri": "https://example.com/images/210.png"
+  "eyes": "afraid",
+  "background": "treasure",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/35.png"
+ },
+ {
+  "tokenId": 36,
+  "eyes": "confident",
+  "background": "turqouse water",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/36.png"
+ },
+ {
+  "tokenId": 37,
+  "eyes": "evil",
+  "background": "ocean diver",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/37.png"
+ },
+ {
+  "tokenId": 38,
+  "eyes": "afraid",
+  "background": "turqouse water",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/38.png"
+ },
+ {
+  "tokenId": 39,
+  "eyes": "confident",
+  "background": "treasure",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/39.png"
+ },
+ {
+  "tokenId": 40,
+  "eyes": "evil",
+  "background": "turqouse water",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/40.png"
+ },
+ {
+  "tokenId": 41,
+  "eyes": "evil",
+  "background": "stranded",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/41.png"
+ },
+ {
+  "tokenId": 42,
+  "eyes": "evil",
+  "background": "sinken ship",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/42.png"
+ },
+ {
+  "tokenId": 43,
+  "eyes": "dead",
+  "background": "stranded",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/43.png"
+ },
+ {
+  "tokenId": 44,
+  "eyes": "evil",
+  "background": "turqouse water",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/44.png"
+ },
+ {
+  "tokenId": 45,
+  "eyes": "afraid",
+  "background": "turqouse water",
+  "skin": "glitter",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/45.png"
+ },
+ {
+  "tokenId": 46,
+  "eyes": "confident",
+  "background": "treasure",
+  "skin": "ghost",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/46.png"
+ },
+ {
+  "tokenId": 47,
+  "eyes": "evil",
+  "background": "treasure",
+  "skin": "moisted",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/47.png"
+ },
+ {
+  "tokenId": 48,
+  "eyes": "afraid",
+  "background": "sinken ship",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/48.png"
+ },
+ {
+  "tokenId": 49,
+  "eyes": "afraid",
+  "background": "turqouse water",
+  "skin": "toxic",
+  "imgUrl": "https://test-nft-api43.herokuapp.com/image/49.png"
  }
 ]
