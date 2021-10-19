@@ -6,24 +6,24 @@ import requests
 url = "https://test-nft-react.herokuapp.com/"
 file = open('nfts.json', 'r')
 data = json.load(file)
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/app.py')
+@application.route('/app.py')
 def test2():
     return "app.py"
 
-@app.route('/api/test')
+@application.route('/api/test')
 def test():
     return "/api/test"
 
-@app.route('/app.py/test')
+@application.route('/app.py/test')
 def test3():
     return "/app.py/test"
-@app.route('/test')
+@application.route('/test')
 def test4():
     return "/test"
 
-@app.route('/app.py/api/<token_id>')
+@application.route('/app.py/api/<token_id>')
 def creature(token_id):
 
     supply = requests.get(url).text
@@ -54,7 +54,7 @@ def creature(token_id):
     })
 
 
-@app.route('/app.py/image/<filename>')
+@application.route('/app.py/image/<filename>')
 
 def get_image(filename):
 
