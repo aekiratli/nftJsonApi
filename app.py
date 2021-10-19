@@ -8,6 +8,10 @@ file = open('nfts.json', 'r')
 data = json.load(file)
 app = Flask(__name__)
 
+@app.route('/')
+def test():
+    return "hi"
+
 @app.route('/api/<token_id>')
 def creature(token_id):
 
