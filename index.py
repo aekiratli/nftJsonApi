@@ -8,22 +8,8 @@ file = open('nfts.json', 'r')
 data = json.load(file)
 application = Flask(__name__)
 
-@application.route('/app.py')
-def test2():
-    return "app.py"
 
-@application.route('/api/test')
-def test():
-    return "/api/test"
-
-@application.route('/app.py/test')
-def test3():
-    return "/app.py/test"
-@application.route('/test')
-def test4():
-    return "/test"
-
-@application.route('/app.py/api/<token_id>')
+@application.route('/api/<token_id>')
 def creature(token_id):
 
     supply = requests.get(url).text
@@ -54,7 +40,7 @@ def creature(token_id):
     })
 
 
-@application.route('/app.py/image/<filename>')
+@application.route('/image/<filename>')
 
 def get_image(filename):
 
