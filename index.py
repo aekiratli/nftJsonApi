@@ -3,7 +3,7 @@ from flask import Flask, abort, jsonify,send_file, safe_join
 import json
 import requests
 
-url = "https://test-nft-react.herokuapp.com/"
+url = "https://supply-fetch.vercel.app/"
 file = open('nfts.json', 'r')
 data = json.load(file)
 application = Flask(__name__)
@@ -17,8 +17,6 @@ def creature(token_id):
     if int(token_id) > (int(supply)-1):
         abort(404)
 
-    
-
     eyes = data[int(token_id)]["eyes"]
     background = data[int(token_id)]["background"]
     skin = data[int(token_id)]["skin"]
@@ -26,9 +24,9 @@ def creature(token_id):
     name = ("Crypto Whalez #%s" %token_id)
 
     attributes = []
-    _add_attribute(attributes, 'eyes', eyes)
-    _add_attribute(attributes, 'background', background)
-    _add_attribute(attributes, 'skin', skin)
+    addToJson(attributes, 'eyes', eyes)
+    addToJson(attributes, 'background', background)
+    addToJson(attributes, 'skin', skin)
 
 
     return jsonify({
@@ -54,7 +52,7 @@ def get_image(filename):
     safe_path = safe_join("./images/", filename)
     return send_file(safe_path, mimetype='image/gif')
 
-def _add_attribute(existing, attribute_name, value):
+def addToJson(existing, attribute_name, value):
     trait = {
         'trait_type': attribute_name,
         'value': value
