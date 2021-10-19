@@ -1,5 +1,14 @@
 {
-    "builds": [{
-        "src": "index.py",
-        "use": "@potatohd/py-vercel"    }]
+    "builds": [
+        {
+            "src": "index.py",
+            "use": "@potatohd/py-vercel"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
 }
