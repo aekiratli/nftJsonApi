@@ -12,6 +12,10 @@ app = Flask(__name__)
 def test():
     return "hi"
 
+@app.route('/app.py')
+def test2():
+    return "hey?"
+
 @app.route('/api/<token_id>')
 def creature(token_id):
 
