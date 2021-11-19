@@ -2,8 +2,11 @@
 from flask import Flask, abort, jsonify, send_file, safe_join
 import json
 import requests
+from PIL import Image
+from io import BytesIO
 
 url = "https://supply-fetch.vercel.app/"
+ipfs = "https://gateway.pinata.cloud/ipfs/QmcJV2Kvta4ffP54Y3zW58zKYFMzwivEkkyp1rF2vp2pqX/"
 file = open('nfts.json', 'r')
 data = json.load(file)
 application = Flask(__name__)
@@ -50,11 +53,13 @@ def get_image(filename):
 
     supply = requests.get(url).text
 
+
     if int(token_id) > (int(supply)-1):
         abort(404)
 
-    safe_path = safe_join("./images/", filename)
-    return send_file(safe_path, mimetype='image/gif')
+    image = requests.get(str(url+str(token_id)+".png"))
+    img = Image.open(BytesIO(image.content))
+    return send_file(img, mimetype='image/gif')
 
 
 def addToJson(existing, attribute_name, value):
