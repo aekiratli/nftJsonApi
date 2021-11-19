@@ -6,7 +6,7 @@ from io import BytesIO
 
 url = "https://supply-fetch.vercel.app/"
 img_ipfs = "https://gateway.pinata.cloud/ipfs/QmcJV2Kvta4ffP54Y3zW58zKYFMzwivEkkyp1rF2vp2pqX/"
-json_ipfs = "https://gateway.pinata.cloud/ipfs/QmbQkmoEDRXozUAfvPyPfv8bcjkiEJGod5SuDy7x5c74Ci/"
+json_ipfs = "https://gateway.pinata.cloud/ipfs/Qmf7Wp6RRso5eTtsYyqv8BRYS7JdMG86v6ChNQAmC3VQWy/"
 
 file = open('nfts.json', 'r')
 data = json.load(file)
