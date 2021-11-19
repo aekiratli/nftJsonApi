@@ -20,7 +20,7 @@ def creature(token_id):
     accs1 = data[int(token_id)]["accessoire1"]
     accs2 = data[int(token_id)]["accessoire2"]
     mouth = data[int(token_id)]["mouth"]
-    eyes = data[int(token_id)]["eyes"]
+    eyes = data[int(token_id)]["eye"]
     background = data[int(token_id)]["background"]
     body = data[int(token_id)]["body"]
     imgUrl = data[int(token_id)]["imgUrl"]
