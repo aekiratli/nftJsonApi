@@ -57,8 +57,9 @@ def get_image(filename):
     if int(token_id) > (int(supply)-1):
         abort(404)
 
-    image = requests.get(str(url+str(token_id)+".png"))
-    img = Image.open(BytesIO(image.content))
+    image = requests.get(str(ipfs+str(token_id)+".png"))
+    img = BytesIO(image.content)
+    print(str(url+str(token_id)+".png"))
     return send_file(img, mimetype='image/gif')
 
 
