@@ -1,5 +1,5 @@
 
-from flask import Flask, abort, jsonify,send_file, safe_join
+from flask import Flask, abort, jsonify, send_file, safe_join
 import json
 import requests
 
@@ -17,17 +17,22 @@ def creature(token_id):
     if int(token_id) > (int(supply)-1):
         abort(404)
 
+    accs1 = data[int(token_id)]["accessoire1"]
+    accs2 = data[int(token_id)]["accessoire2"]
+    mouth = data[int(token_id)]["mouth"]
     eyes = data[int(token_id)]["eyes"]
     background = data[int(token_id)]["background"]
-    skin = data[int(token_id)]["skin"]
+    body = data[int(token_id)]["body"]
     imgUrl = data[int(token_id)]["imgUrl"]
-    name = ("Crypto Whalez #%s" %token_id)
+    name = ("Crypto Whale #%s" % token_id)
 
     attributes = []
     addToJson(attributes, 'eyes', eyes)
+    addToJson(attributes, 'accessoire 1', accs1)
+    addToJson(attributes, 'accessoire 2', accs2)
+    addToJson(attributes, 'mouth', mouth)
     addToJson(attributes, 'background', background)
-    addToJson(attributes, 'skin', skin)
-
+    addToJson(attributes, 'body', body)
 
     return jsonify({
         'name': name,
@@ -39,7 +44,6 @@ def creature(token_id):
 
 
 @application.route('/image/<filename>')
-
 def get_image(filename):
 
     token_id = filename.split(".")[0]
@@ -51,6 +55,7 @@ def get_image(filename):
 
     safe_path = safe_join("./images/", filename)
     return send_file(safe_path, mimetype='image/gif')
+
 
 def addToJson(existing, attribute_name, value):
     trait = {
