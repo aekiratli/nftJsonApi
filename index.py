@@ -1,4 +1,5 @@
 
+from re import S
 from flask import Flask, abort, jsonify, send_file, safe_join
 import json
 import requests
@@ -15,7 +16,8 @@ application = Flask(__name__)
 def creature(token_id):
 
     supply = requests.get(url).text
-
+    supply = int(supply)
+    
     if int(token_id) > (int(supply)-1):
         abort(404)
 
@@ -49,16 +51,16 @@ def creature(token_id):
 def get_image(filename):
 
     token_id = filename.split(".")[0]
+    token_id = int(token_id)
 
     supply = requests.get(url).text
-
+    supply = int(supply)
 
     if int(token_id) > (int(supply)-1):
         abort(404)
 
     image = requests.get(str(ipfs+str(token_id)+".png"))
     img = BytesIO(image.content)
-    print(str(url+str(token_id)+".png"))
     return send_file(img, mimetype='image/gif')
 
 
