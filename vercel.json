@@ -2,7 +2,9 @@
     "builds": [
         {
             "src": "index.py",
-            "use": "@potatohd/py-vercel"
+            "use": "@potatohd/py-vercel",
+            "config": { "runtime": "python3.6" }
+            
         }
     ],
     "routes": [
