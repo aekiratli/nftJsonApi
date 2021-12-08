@@ -40,7 +40,7 @@ def creatur2e(token_id):
         addToJson(attributes, 'body', body)
         return jsonify({
             'name': name,
-            'description': 'Whales from the ocean',
+            'description': 'Crypto Whale NFTs is a collection of 8,888 NFTs minted on the Ethereum Blockchain.NFT grants the holder an exclusive access to a competitive RPG game | 🐋',
             'image': imgUrl,
             'external_url': 'https://openseacreatures.io/%s' % token_id,
             'attributes': attributes
