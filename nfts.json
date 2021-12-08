@@ -1,112 +1,46 @@
 [
     {
      "tokenId": 0,
-     "accessoire1": "Beard",
-     "accessoire2": "Portal",
-     "background": "Brown",
-     "eye": "Purple",
-     "mouth": "Sad",
-     "body": "White",
      "imgUrl": "https://nft-img-api.vercel.app/image/0.png"
     },
     {
      "tokenId": 1,
-     "accessoire1": "Blood",
-     "accessoire2": "Bulb",
-     "background": "Brown",
-     "eye": "Purple",
-     "mouth": "Normal",
-     "body": "Killer",
      "imgUrl": "https://nft-img-api.vercel.app/image/1.png"
     },
     {
      "tokenId": 2,
-     "accessoire1": "Whiskers",
-     "accessoire2": "Red Hat",
-     "background": "Cyber",
-     "eye": "Skeptical",
-     "mouth": "Smiling",
-     "body": "Rainbow",
      "imgUrl": "https://nft-img-api.vercel.app/image/2.png"
     },
     {
      "tokenId": 3,
-     "accessoire1": "No Accesuar",
-     "accessoire2": "Inner Eye",
-     "background": "Sunset",
-     "eye": "Mad",
-     "mouth": "Smiling",
-     "body": "Sick",
      "imgUrl": "https://nft-img-api.vercel.app/image/3.png"
     },
     {
      "tokenId": 4,
-     "accessoire1": "Sword",
-     "accessoire2": "Heisenberg Hat",
-     "background": "Sunset",
-     "eye": "Sun Glasses",
-     "mouth": "Normal",
-     "body": "Cutie",
      "imgUrl": "https://nft-img-api.vercel.app/image/4.png"
     },
     {
      "tokenId": 5,
-     "accessoire1": "Sword",
-     "accessoire2": "Portal",
-     "background": "Blue",
-     "eye": "Blue",
-     "mouth": "Surgical Mask",
-     "body": "Red",
      "imgUrl": "https://nft-img-api.vercel.app/image/5.png"
     },
     {
      "tokenId": 6,
-     "accessoire1": "Sword",
-     "accessoire2": "Red Hat",
-     "background": "Brown",
-     "eye": "Blue",
-     "mouth": "Surgical Mask",
-     "body": "Cutie",
      "imgUrl": "https://nft-img-api.vercel.app/image/6.png"
     },
     {
      "tokenId": 7,
-     "accessoire1": "No Accesuar",
-     "accessoire2": "Hat",
-     "background": "Blue",
-     "eye": "Normal",
-     "mouth": "Surgical Mask",
-     "body": "Green",
      "imgUrl": "https://nft-img-api.vercel.app/image/7.png"
     },
     {
      "tokenId": 8,
-     "accessoire1": "Cigarette",
-     "accessoire2": "Hat",
-     "background": "Blue",
-     "eye": "Evil",
-     "mouth": "Smiling",
-     "body": "Cutie",
      "imgUrl": "https://nft-img-api.vercel.app/image/8.png"
     },
     {
      "tokenId": 9,
-     "accessoire1": "No Accesuar",
-     "accessoire2": "Bulb",
-     "background": "Blue",
-     "eye": "Sun Glasses",
-     "mouth": "Smiling",
-     "body": "Blue",
      "imgUrl": "https://nft-img-api.vercel.app/image/9.png"
     },
     {
      "tokenId": 10,
-     "accessoire1": "Whiskers",
-     "accessoire2": "Bulb",
-     "background": "Cyber",
-     "eye": "White",
-     "mouth": "Surgical Mask",
-     "body": "Lime",
      "imgUrl": "https://nft-img-api.vercel.app/image/10.png"
     },
     {
