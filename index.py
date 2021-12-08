@@ -38,7 +38,6 @@ def creatur2e(token_id):
         addToJson(attributes, 'mouth', mouth)
         addToJson(attributes, 'background', background)
         addToJson(attributes, 'body', body)
-        print("burdayım")
         return jsonify({
             'name': name,
             'description': 'Whales from the ocean',
@@ -50,7 +49,6 @@ def creatur2e(token_id):
         imgUrl = data[int(token_id)]["imgUrl"]
         name = ("Crypto Whale #%s" % token_id)
         attributes = []
-        print("bir de burdayım")
         return jsonify({
         'name': name,
         'description': 'Whales from the ocean',
